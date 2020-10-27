@@ -1,5 +1,5 @@
 PKG_NAME := cchardet
-URL = https://files.pythonhosted.org/packages/41/e6/2e2184a3bc887bfb6e6b97aef5e94af9b8de43806ce14b023ddbbcb0b30d/cchardet-2.1.6.tar.gz
+URL = https://files.pythonhosted.org/packages/a8/5d/090c9f0312b7988a9433246c9cf0b566b1ae1374368cfb8ac897218a4f65/cchardet-2.1.7.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
