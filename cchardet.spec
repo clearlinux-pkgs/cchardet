@@ -4,7 +4,7 @@
 #
 Name     : cchardet
 Version  : 2.1.7
-Release  : 2
+Release  : 3
 URL      : https://files.pythonhosted.org/packages/a8/5d/090c9f0312b7988a9433246c9cf0b566b1ae1374368cfb8ac897218a4f65/cchardet-2.1.7.tar.gz
 Source0  : https://files.pythonhosted.org/packages/a8/5d/090c9f0312b7988a9433246c9cf0b566b1ae1374368cfb8ac897218a4f65/cchardet-2.1.7.tar.gz
 Summary  : cChardet is high speed universal character encoding detector.
