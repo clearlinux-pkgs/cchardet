@@ -4,7 +4,7 @@
 #
 Name     : cchardet
 Version  : 2.1.7
-Release  : 14
+Release  : 15
 URL      : https://files.pythonhosted.org/packages/a8/5d/090c9f0312b7988a9433246c9cf0b566b1ae1374368cfb8ac897218a4f65/cchardet-2.1.7.tar.gz
 Source0  : https://files.pythonhosted.org/packages/a8/5d/090c9f0312b7988a9433246c9cf0b566b1ae1374368cfb8ac897218a4f65/cchardet-2.1.7.tar.gz
 Summary  : cChardet is high speed universal character encoding detector.
@@ -69,15 +69,15 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1603811091
+export SOURCE_DATE_EPOCH=1635709513
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
 export NM=gcc-nm
-export CFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
-export FCFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
-export FFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
-export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=4 "
+export CFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=auto "
+export FCFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=auto "
+export FFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=auto "
+export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=auto "
 export MAKEFLAGS=%{?_smp_mflags}
 python3 setup.py build
 
